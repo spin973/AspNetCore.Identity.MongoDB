@@ -1,0 +1,13 @@
+﻿global using AspNetCore.Identity.MongoDB.Model;
+global using AspNetCore.Identity.MongoDB.Stores;
+global using AspNetCore.Identity.MongoDB.Utility;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.Extensions.DependencyInjection.Extensions;
+global using MongoDB.Bson;
+global using MongoDB.Driver;
+global using MongoDB.Driver.Linq;
+global using System.ComponentModel;
+global using System.Data;
+global using System.Globalization;
+global using System.Linq.Expressions;
+global using System.Security.Claims;

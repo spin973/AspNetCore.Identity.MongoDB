@@ -1,0 +1,14 @@
+﻿global using AspNetCore.Identity.MongoDB.Model;
+global using AspNetCore.Identity.MongoDB.Stores;
+global using AspNetCore.Identity.MongoDB.Test.Common;
+global using AspNetCore.Identity.MongoDB.Utility;
+global using Microsoft.AspNetCore.Identity;
+global using MongoDB.Bson;
+global using MongoDB.Driver;
+global using System;
+global using System.ComponentModel;
+global using System.Linq;
+global using System.Security.Claims;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using Xunit;
