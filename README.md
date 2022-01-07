@@ -1,9 +1,13 @@
 # AspNetCore.Identity.MongoDB
 This is the .NET 6.0 version of the repository [AspNetCore.Identity.Mongo](https://github.com/matteofabbri/AspNetCore.Identity.Mongo), it allows you to use MongoDb instead of SQL server with Microsoft.AspNetCore.Identity 3.1.
 
+## Dot Net Core Versions support
+
+Library supports **.Net 6.0**.
+
 ## Using the Library
 
-[The library is available at NuGet.org](https://www.nuget.org/packages/AspNetCore.Identity.MongoDB). This library supports [`ASP.NET Core 6.0`](https://docs.microsoft.com/it-it/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0).
+[The library is available at NuGet.org](https://www.nuget.org/packages/AspNetCore.IdentityProvider.MongoDB). This library supports [`ASP.NET Core 6.0`](https://docs.microsoft.com/it-it/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0).
 
 ### Samples
 
@@ -18,10 +22,6 @@ docker run --name some-mongo -d -p "27017:27017" mongo:3
 ```
 
 After that, you can run the tests through the `dotnet test` command under the test project directory.
-
-## Dot Net Core Versions support
-
-Library supports **.Net 6.0**.
 
 ## How to use:
 AspNetCore.Identity.MongoDB is installed from NuGet:
