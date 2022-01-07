@@ -24,9 +24,9 @@ After that, you can run the tests through the `dotnet test` command under the te
 Library supports **.Net 6.0**.
 
 ## How to use:
-AspNetCore.Identity.Mongo is installed from NuGet:
+AspNetCore.Identity.MongoDB is installed from NuGet:
 ```
-Install-Package AspNetCore.Identity.Mongo
+Install-Package AspNetCore.Identity.MongoDB
 ```
 The simplest way to set up:
 ```csharp
@@ -36,7 +36,7 @@ using AspNetCore.Identity.MongoDB.Model;
 // in Program.cs 
 builder.Services
     .AddIdentity<MongoDbUser>()
-    .AddMongoDbStores();
+    .AddMongoDbStores(); //use defaults: MongoDbUser, MongoDbRole with primary key of type MongoDB.Bson.ObjectId
 ```
 
 You can personalize the connections parameter with an `Action<MongoDbOptions>` parameter:
