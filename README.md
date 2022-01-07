@@ -9,9 +9,9 @@ Library supports [`ASP.NET Core 6.0`](https://docs.microsoft.com/it-it/aspnet/co
 
 [The library is available at NuGet.org](https://www.nuget.org/packages/AspNetCore.IdentityProvider.MongoDB).
 
-### Samples
+### Sample
 
-You can find some samples under [./samples](./samples) folder and each of the sample contain a README file on its own with the instructions showing how to run them.
+You can find a sample application under [./samples](./samples) folder. This is a simple asp.net core 6.0 with scaffolding identity that use MongoDB as repository.
 
 ### Tests
 
