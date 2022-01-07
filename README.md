@@ -115,7 +115,7 @@ Before create any issue/PR please look at the [CONTRIBUTING](./CONTRIBUTING.md)
 See [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
 
 ## License
-This project is licensed under the [MIT license](./blob/master/LICENSE.txt)
+This project is licensed under the [MIT license](./LICENSE.txt)
 
 ## Support This Project
 If you have found this project helpful, either as a library that you use or as a learning tool, please consider offering me a coffee: <a href="https://www.buymeacoffee.com/spin973" target="_blank"><img height="40px" src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="max-height: 42px;width: 150px !important;" ></a>
