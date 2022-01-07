@@ -34,6 +34,8 @@ using AspNetCore.Identity.MongoDB;
 using AspNetCore.Identity.MongoDB.Model;
 
 // in Program.cs 
+var builder = WebApplication.CreateBuilder(args);
+
 builder.Services
     .AddIdentity<MongoDbUser>()
     .AddMongoDbStores(); //use defaults: MongoDbUser, MongoDbRole with primary key of type MongoDB.Bson.ObjectId
