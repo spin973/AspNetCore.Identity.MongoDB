@@ -70,14 +70,10 @@ builder.Services
     {
         options.MongoClientSettings = new MongoClientSettings()
         {
-            ApplicationName = "app1",
+            ApplicationName = "mongoApp",
             Credential = MongoCredential.CreateCredential("source", "username", "password"),
             Servers = new[] { new MongoServerAddress("localhost"), new MongoServerAddress("127.0.0.1", 27017) },
-            SslSettings = new SslSettings
-            {
-                CheckCertificateRevocation = true,
-                EnabledSslProtocols = SslProtocols.Tls13
-            },
+            // other options
         };
     });
 ```
@@ -122,5 +118,5 @@ See [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
 This project is licensed under the [MIT license](./blob/master/LICENSE.txt)
 
 ## Support This Project
-If you have found this project helpful, either as a library that you use or as a learning tool, please consider offering me a coffee: <a href="https://www.buymeacoffee.com/spin973" target="_blank"><img height="40px" src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="max-height: 51px;width: 150px !important;" ></a>
+If you have found this project helpful, either as a library that you use or as a learning tool, please consider offering me a coffee: <a href="https://www.buymeacoffee.com/spin973" target="_blank"><img height="40px" src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="max-height: 42px;width: 150px !important;" ></a>
 
