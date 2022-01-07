@@ -3,11 +3,11 @@ This is the .NET 6.0 version of the repository [AspNetCore.Identity.Mongo](https
 
 ## Dot Net Core Versions support
 
-Library supports **.Net 6.0**.
+Library supports [`ASP.NET Core 6.0`](https://docs.microsoft.com/it-it/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0).
 
 ## Using the Library
 
-[The library is available at NuGet.org](https://www.nuget.org/packages/AspNetCore.IdentityProvider.MongoDB). This library supports [`ASP.NET Core 6.0`](https://docs.microsoft.com/it-it/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0).
+[The library is available at NuGet.org](https://www.nuget.org/packages/AspNetCore.IdentityProvider.MongoDB).
 
 ### Samples
 
