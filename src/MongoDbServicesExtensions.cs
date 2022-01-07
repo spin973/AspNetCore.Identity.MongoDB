@@ -2,6 +2,11 @@
 
 public static class MongoDbServicesExtensions
 {
+    public static IdentityBuilder AddMongoDbStores(this IdentityBuilder builder)
+    {
+        return AddMongoDbStores<MongoDbUser, MongoDbRole, ObjectId>(builder, x => { });
+    }
+
     public static IdentityBuilder AddMongoDbStores(this IdentityBuilder builder,
         Action<MongoDbOptions> setupDatabaseAction)
     {

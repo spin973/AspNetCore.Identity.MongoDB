@@ -4,12 +4,38 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<!-- Nuget Package properties -->
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageId>AspNetCore.IdentityProvider.MongoDB</PackageId>
+	<Authors>Spin973</Authors>
+	<PackageTitle>AspNetCore.Identity.MongoDB</PackageTitle>
+	<Description>A MongoDB UserStore and RoleStore adapter for Microsoft.Extensions.Identity.Core 6.0.1.</Description>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	<PackageReleaseNotes>Release notes are at https://github.com/spin973/AspNetCore.Identity.MongoDB/releases</PackageReleaseNotes>
+	<Copyright>Copyright 2022 (c) Spin973. All rights reserved.</Copyright>
+	<PackageTags>aspnetcore mongo mongodb identity userstore rolestore dotnet6</PackageTags>
+	<PackageProjectUrl>https://github.com/spin973/AspNetCore.Identity.MongoDB</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/spin973/AspNetCore.Identity.MongoDB</RepositoryUrl>
+	<RepositoryType>Git</RepositoryType>
+	<Product>AspNetCore.Identity.MongoDB</Product>
+	<!-- Versioning -->
+	<PackageVersion>1.0.0</PackageVersion>
+	<Version>1.0.0</Version>
+	<FileVersion>1.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+  	<None Include=".\LICENSE.txt">
+  	  <Pack>True</Pack>
+  	  <PackagePath></PackagePath>
+  	</None>
   </ItemGroup>
 
 </Project>
