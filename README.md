@@ -26,7 +26,7 @@ After that, you can run the tests through the `dotnet test` command under the te
 ## How to use:
 AspNetCore.Identity.MongoDB is installed from NuGet:
 ```
-Install-Package AspNetCore.Identity.MongoDB
+Install-Package AspNetCore.IdentityProvider.MongoDB
 ```
 The simplest way to set up:
 ```csharp
